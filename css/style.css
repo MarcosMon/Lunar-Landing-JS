@@ -1,0 +1,67 @@
+
+html{height:100%;color: #fff;}
+
+body{background:url(../img/espacio.jpg) no-repeat fixed center;}
+
+
+#wrap{
+	height:100%;
+	float:left;
+	width:15%}
+
+
+aside h2{line-height: 1.5em;font-weight: bold;text-align: center;text-transform: uppercase;}
+.asidewrap aside li:hover{cursor: pointer;background-color:red rgba(00,00,00,0.3);}
+.asidewrap aside li:hover a{opacity: 1;}
+.asidewrap{width: 20%;color: #c1c1c1;float: left;}
+.asidewrap aside{position: relative;float: left;width: 100%;padding-top: 1em;color:red;background: #1f282d;}
+
+aside li a{display: block;max-width: 100%;overflow: hidden;text-overflow: ellipsis;color:red;padding: 0.5em 0;text-decoration: none;opacity: 0.7;}
+aside ul{padding-left: 1em;}
+aside li{padding-left: 1em;margin: 0.1em 0;list-style: none;background: no-repeat;background-position: 0.5em center;border-radius: 0.2em 0 0 0.2em;}
+
+#wrap-right {
+	float: left;
+  width: 47%;
+}
+
+
+#hidem,#showm{float: left;
+  color: #fff;
+  text-shadow: 0 1px 0 rgba(0,0,0,0.15);
+  padding: 4px 10px;
+  margin: 5px;
+  cursor: pointer;
+  border: #fff solid 1px;
+  border-radius: 3px;
+}
+
+
+.sidebar-right{
+	background: ;
+	float: right;
+	color:white;
+	background: ;
+	padding-top: 1em;
+	background-color:;
+	display:block !important
+}
+
+#luna{
+	text-align:center;
+	position:fixed;
+	bottom:-11%;
+	width:100%;
+	height:30%;
+}
+#luna img{display:inline-block;height:60%;}
+
+
+
+
+
+.a,.b,.sidebar-right{display:inline-block;width:33.33%;height:100%;float:left;}
+.d{background-color:;height:10%;width:100%;position:fixed;bottom:0px;}
+#nave{text-align:center;position:fixed;top:10%;width:100%;height:20%}
+#nave img{height:100%;}
+#hidem,#showm{display:none}
