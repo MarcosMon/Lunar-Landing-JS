@@ -10,16 +10,6 @@ body{background:url(../img/espacio.jpg) no-repeat fixed center;}
 	width:15%}
 
 
-aside h2{line-height: 1.5em;font-weight: bold;text-align: center;text-transform: uppercase;}
-.asidewrap aside li:hover{cursor: pointer;background-color:red rgba(00,00,00,0.3);}
-.asidewrap aside li:hover a{opacity: 1;}
-.asidewrap{width: 20%;color: #c1c1c1;float: left;}
-.asidewrap aside{position: relative;float: left;width: 100%;padding-top: 1em;color:red;background: #1f282d;}
-
-aside li a{display: block;max-width: 100%;overflow: hidden;text-overflow: ellipsis;color:red;padding: 0.5em 0;text-decoration: none;opacity: 0.7;}
-aside ul{padding-left: 1em;}
-aside li{padding-left: 1em;margin: 0.1em 0;list-style: none;background: no-repeat;background-position: 0.5em center;border-radius: 0.2em 0 0 0.2em;}
-
 #wrap-right {
 	float: left;
   width: 47%;
@@ -38,13 +28,9 @@ aside li{padding-left: 1em;margin: 0.1em 0;list-style: none;background: no-repea
 
 
 .sidebar-right{
-	background: ;
 	float: right;
-	color:white;
-	background: ;
 	padding-top: 1em;
-	background-color:;
-	display:block !important
+	display:block !important;
 }
 
 #luna{
@@ -55,13 +41,27 @@ aside li{padding-left: 1em;margin: 0.1em 0;list-style: none;background: no-repea
 	height:30%;
 }
 #luna img{display:inline-block;height:60%;}
+.menu-init{height: 735px !important;background-color:#000;width: 100%;position: absolute;left: 0%;}
+.menu-init button{
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	margin: 0 0 0 80px;
+}
+.menu-init h2{color:#fff;text-align:center; position:relative;top:30%;}
+.menu-init h1{color:#fff;text-align:center; position:relative;top:15%;}
+.select-difficulty{position: relative;top: 50%;left:33%;}
+.easy{background-color: #4CAF50;}
+.medium{background: #008CBA;}
+.hard{background: #f44336;}
 
-
-
-
-
-.a,.b,.sidebar-right{display:inline-block;width:33.33%;height:100%;float:left;}
-.d{background-color:;height:10%;width:100%;position:fixed;bottom:0px;}
-#nave{text-align:center;position:fixed;top:10%;width:100%;height:20%}
+.a,.b,.sidebar-right{display:inline-block;width:33.33%;float:left;}
+.d{height:10%;width:100%;position:fixed;bottom:0px;}
+#nave{text-align:center;position:fixed;top:10%;height:20%;margin-left:47%;z-index:-1 !important;}
 #nave img{height:100%;}
 #hidem,#showm{display:none}
+a{color:#fff;}
