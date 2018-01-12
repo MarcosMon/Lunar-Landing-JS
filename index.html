@@ -11,9 +11,8 @@
     </head>
     <body>
         <div id="nave">
-            <img src="img/nave.png" alt="img nave">
+            <img id="naveimg" src="img/nave.png" alt="img nave">
         </div>
-
         <div class="a">
             <div id="showm"><i class="fa fa-bars"></i></div>
             <ul id="cpanel">
@@ -22,23 +21,31 @@
                 <li>Altura <span id="altura">70</span> m</li>
             </ul>
         </div>
-        <div class="b">b</div>
-		   <div class="asidewrap">
-        <div class="sidebar-right">
-            <div id="hidem"><i class="fa fa-gamepad"></i></div>
-            <ul id="menu">
-             <li href="#">Jugar</li>
-			<li href="#">Pausa</li>
-			<li href="#">Reiniciar</li>
-            <li><a href="Instrucciones.html">Instrucciones</a></li>
-            <li><a href="about.html">Acerca de...</a></li>
-            </ul>
-			
+        <div class="b">
+            <span class="welcome-message">Try to land in the earth</span>
+            <div class="menu-init">
+				<h1 id="message-end">New Game?</h1>
+                <h2>Select mode</h2>
+                <div class="select-difficulty"><button class="easy">Easy</button>
+                    <button class="medium">Medium</button>
+                    <button class="hard">Hard</button>
+                </div>
+            </div>
         </div>
-        <div class="d">d</div>
-		</div>
-		<div id="luna">
-			<img src="img/luna.png" alt="imagen luna.png">
-		</div>
+        <div class="asidewrap">
+            <div class="sidebar-right">
+                <div id="hidem"><i class="fa fa-gamepad"></i></div>
+                <ul id="menu" class="hiden">
+                    <li id="new"><a href="#">Nuevo Juego</a></li>
+                    <li id="reset"><a href="#">Reiniciar</a></li>
+                    <li><a href="Instrucciones.html">Instrucciones</a></li>
+                    <li><a href="about.html">Acerca de...</a></li>
+                </ul>
+            </div>
+            <div class="d"></div>
+        </div>
+        <div id="luna">
+            <img src="img/luna.png" alt="imagen luna.png">
+        </div>
     </body>
 </html>
