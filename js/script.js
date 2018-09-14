@@ -68,7 +68,7 @@ window.onload = function(){
 	}
 	//encender/apagar al apretar/soltar una tecla
 	document.onkeydown = function(e) {
-		if (e.keyCode) {
+		if (e.onclick) {
 			motorOn();
 		}
 	}
